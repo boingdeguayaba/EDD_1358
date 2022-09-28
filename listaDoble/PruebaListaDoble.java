@@ -28,6 +28,8 @@ public class PruebaListaDoble {
 	System.out.println(lista.getTamanio());
 	System.out.println(lista.estaVacia());
 	lista.eliminar(4);
+	//si el valor de transeversal es 0 la lista se recorre hacia la derecha, si es 1 se recorre hacia la izquierda
+	//tuve problemas con las referencias del get/set anterior por lo que el transversal hacia la izquierda no funciona
 	lista.transversal(0);
 	lista.transversal(1);
 	}
