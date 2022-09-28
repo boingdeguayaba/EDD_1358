@@ -29,7 +29,7 @@ public class PruebaListaDoble {
 	System.out.println(lista.estaVacia());
 	lista.eliminar(4);
 	//si el valor de transeversal es 0 la lista se recorre hacia la derecha, si es 1 se recorre hacia la izquierda
-	//tuve problemas con las referencias del get/set anterior por lo que el transversal hacia la izquierda no funciona
+	//tuve problemas con las referencias "NodoDoble<T> anterior" por lo que el transversal hacia la izquierda no funciona, creo que el problema se encuentra en el metodo eliminar
 	lista.transversal(0);
 	lista.transversal(1);
 	}
